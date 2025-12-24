@@ -13,8 +13,8 @@
                     @csrf
 
                     <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" name="email" class="form-control" required autofocus>
+                        <label>Username</label>
+                        <input type="text" name="username" class="form-control" required autofocus>
                     </div>
 
                     <div class="form-group">
