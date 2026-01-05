@@ -16,14 +16,14 @@
     <hr class="sidebar-divider">
 
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{ route('bank.accounts') }}">
             <i class="fas fa-fw fa-university"></i>
             <span>Bank Accounts</span>
         </a>
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{ route('credit.cards') }}">
             <i class="fas fa-fw fa-credit-card"></i>
             <span>Credit Cards</span>
         </a>
