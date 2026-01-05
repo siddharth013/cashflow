@@ -36,6 +36,16 @@
         </a>
     </li>
 
+
     <hr class="sidebar-divider d-none d-md-block">
 
+    <li class="nav-item mt-3">
+        <form method="POST" action="{{ route('logout') }}">
+            @csrf
+            <button type="submit" class="nav-link btn btn-link text-left w-100">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Logout</span>
+            </button>
+        </form>
+    </li>
 </ul>

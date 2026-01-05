@@ -22,6 +22,9 @@ class User extends Authenticatable
         'username',
         'email',
         'password',
+        'timezone',
+        'currency',
+        'is_active',
     ];
 
 

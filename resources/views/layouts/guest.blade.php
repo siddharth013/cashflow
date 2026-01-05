@@ -7,6 +7,9 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
+        <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
+
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
